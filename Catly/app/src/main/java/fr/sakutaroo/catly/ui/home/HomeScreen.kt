@@ -18,12 +18,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.hilt.navigation.compose.hiltViewModel
 import fr.sakutaroo.catly.R
 
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {
-    val homeViewModel: HomeViewModel = viewModel<HomeViewModel>()
+    val homeViewModel: HomeViewModel = hiltViewModel<HomeViewModel>()
 
     when (val homeUiState = homeViewModel.homeUiState) {
         is HomeUiState.Loading -> LoadingScreen(modifier = modifier.fillMaxSize())
