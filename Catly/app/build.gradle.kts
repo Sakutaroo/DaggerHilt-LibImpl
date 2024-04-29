@@ -63,9 +63,10 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.lifecycle.viewmodel)
-    // Retrofit
+    // API
     implementation(libs.retrofit2)
     implementation(libs.retrofit2.scalars)
+    implementation(libs.okhttp3.okhttp)
     implementation(libs.kotlinx.serialization)
     // Dagger Hilt
     implementation(libs.hilt.android)
