@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Catly</string>
+    <string name="cat_fact">Cat Fact</string>
+    <string name="reload">Reload</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_failed">Failed to load</string>
+</resources>
